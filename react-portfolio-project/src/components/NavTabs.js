@@ -28,14 +28,18 @@ function NavTabs({ currentTab, handleTabChange }) {
           className={
             currentTab === "Portfolio" ? "nav-link active" : "nav-link"
           }
-        ></a>
+        >
+          Portfolio
+        </a>
       </li>
       <li className="nav-item">
         <a
           href="#resume"
           onClick={() => handleTabChange("Resume")}
           className={currentTab === "Resume" ? "nav-link active" : "nav-link"}
-        ></a>
+        >
+          Resume
+        </a>
       </li>
     </ul>
   );
