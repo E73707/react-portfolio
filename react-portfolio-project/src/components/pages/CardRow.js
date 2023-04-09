@@ -1,5 +1,6 @@
 // CardRow.js
 import React from "react";
+import "../../styles/cardRow.css";
 
 function CardRow(props) {
   return (

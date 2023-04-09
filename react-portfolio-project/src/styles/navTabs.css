@@ -1,0 +1,15 @@
+.name {
+  margin-right: 50px;
+}
+
+.nav-tabs {
+  width: 100% !important;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav {
+  margin: 25px;
+}
