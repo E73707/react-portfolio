@@ -3,7 +3,8 @@ import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolios";
 import Resume from "./pages/Resume";
-import AboutMe from "./pages/AboutMe";
+import AboutMe from "./pages/Contact";
+import Footer from "./footer";
 
 export default function PortfolioContainer() {
   const [currentTab, setCurrentTab] = useState("Home");
@@ -12,7 +13,7 @@ export default function PortfolioContainer() {
     if (currentTab === "Home") {
       return <Home />;
     }
-    if (currentTab === "About") {
+    if (currentTab === "Contact") {
       return <AboutMe />;
     }
     if (currentTab === "Portfolio") {
@@ -27,6 +28,7 @@ export default function PortfolioContainer() {
     <div>
       <NavTabs currentTab={currentTab} handleTabChange={handleTabChange} />
       {render()}
+      <Footer />
     </div>
   );
 }
