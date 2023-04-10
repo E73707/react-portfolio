@@ -1,0 +1,17 @@
+.footer {
+  bottom: 500px;
+  /* position: fixed; */
+  width: 100%;
+  /* background-color: antiquewhite; */
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer ul li {
+  margin: 0 10px;
+}

@@ -9,7 +9,7 @@ export default function Portfolio() {
   ];
 
   return (
-    <div>
+    <div className="body">
       <h1>Portfolio</h1>
       <p>This is the portfolio area</p>
       <div className="project-container">
