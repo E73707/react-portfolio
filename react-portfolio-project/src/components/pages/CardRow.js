@@ -16,7 +16,8 @@ function CardRow(props) {
           <div
             className="card"
             style={{
-              backgroundImage: `url(${card.img})`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + card.img})`,
+
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

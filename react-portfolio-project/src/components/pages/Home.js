@@ -7,7 +7,11 @@ export default function Home() {
   return (
     <div className="body">
       <h1>About Me</h1>
-      <img className="profileImg" src="/images/0.jpg" alt="me"></img>
+      <img
+        className="profileImg"
+        src={process.env.PUBLIC_URL + "/images/0.jpg"}
+        alt="me"
+      ></img>
       <Description />
       <Education />
       <Skills />
