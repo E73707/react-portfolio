@@ -3,9 +3,24 @@ import CardRow from "./CardRow";
 
 export default function Portfolio() {
   const cardData = [
-    { title: "Card 1", description: "This is card 1" },
-    { title: "Card 2", description: "This is card 2" },
-    { title: "Card 3", description: "This is card 3" },
+    {
+      title: "Car Inventory Manager",
+      description: "First full stack application",
+      url: "https://sleepy-ridge-65976.herokuapp.com/",
+      img: "/images/car-inv.png",
+    },
+    {
+      title: "What to Watch",
+      description: "Web application which displays pospular movies by genre",
+      url: "https://e73707.github.io/Movie-search-engine/",
+      img: "/images/w2w.png",
+    },
+    {
+      title: "Express Note Taker",
+      description: "Note taking application",
+      url: "https://glacial-depths-61663.herokuapp.com/",
+      img: "/images/note-taker.png",
+    },
   ];
 
   return (

@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolios";
 import Resume from "./pages/Resume";
 import AboutMe from "./pages/Contact";
-import Footer from "./footer";
 
 export default function PortfolioContainer() {
   const [currentTab, setCurrentTab] = useState("Home");
@@ -28,7 +27,6 @@ export default function PortfolioContainer() {
     <div>
       <NavTabs currentTab={currentTab} handleTabChange={handleTabChange} />
       {render()}
-      <Footer />
     </div>
   );
 }
