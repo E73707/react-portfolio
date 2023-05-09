@@ -16,10 +16,10 @@ export default function Portfolio() {
       img: "/images/w2w.png",
     },
     {
-      title: "Express Note Taker",
-      description: "Note taking application",
-      url: "https://glacial-depths-61663.herokuapp.com/",
-      img: "/images/note-taker.png",
+      title: "Rate a rental",
+      description: "Rental review application",
+      url: "https://protected-brook-03421.herokuapp.com/",
+      img: "/images/RRR-home.png",
     },
   ];
 
